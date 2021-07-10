@@ -1,0 +1,1 @@
+# Sistema de acceso con PHP, expuesto por un servidor Apache y consumiendo una base de datos Mysql
