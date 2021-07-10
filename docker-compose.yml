@@ -13,3 +13,11 @@ services:
       MYSQL_PASSWORD: login-163
       MYSQL_ROOT_PASSWORD: admin-164
     restart: always
+
+  server:
+    container_name: apache-login
+    build: ./app
+    ports: 
+      - "80:80"
+    depends_on: 
+      - mysql
